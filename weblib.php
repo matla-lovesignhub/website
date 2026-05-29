@@ -19,6 +19,7 @@ function renderHeader(string $title, string $description)
         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
         <link rel="manifest" href="favicons/site.webmanifest" /> ';
     if ($title == 'BSL courses') {
+        echo '<link rel="stylesheet" href="assets/navBar.css">';
         echo '<link rel="stylesheet" href="assets/bsl_courses_style.css">';
     } else {
         echo '<link rel="stylesheet" href="assets/style.css">';
@@ -38,263 +39,149 @@ function renderHeader(string $title, string $description)
     // TODO: add Google Analytics script
     echo '
     </head>
-     <body class="custom-background">
-    <div id="page-container">
-        <div id="et-boc" class="et-boc">
-
-            <header class="et-l et-l--header">
-                <div class="et_builder_inner_content">
-                    <div class="et_pb_section_0_tb_header et_pb_section et_section_regular et_flex_section preset--module--divi-section--default">
-                        <div class="et_pb_row_0_tb_header et_pb_row et_flex_row lsh-top-header-row preset--module--divi-row--default">
-                            <div class="et_pb_column_0_tb_header et_pb_column et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_12_24 et_flex_column_6_24_tablet et_flex_column_24_24_phone lsh-top-logo-col preset--module--divi-column--default">
-                                <div class="et_pb_image_0_tb_header et_pb_image et_pb_module et_flex_module">
-                                    <a href="https://lovesignhub.co.uk/">
-                                        <span class="et_pb_image_wrap">
-                                            <img alt="LoveSign Hub Website" fetchpriority="high" loading="lazy" decoding="async" src="images/LoveSign-Hub-Website.svg" title="LoveSign Hub Website" width="688" height="642" srcset="images/LoveSign-Hub-Website.svg 688w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 688px, 100vw" class="wp-image-81"/>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="et_pb_column_1_tb_header et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_12_24 et_flex_column_6_24_tablet et_flex_column_24_24_phone lsh-top-contact-col preset--module--divi-column--default">
-                                <div class="et_pb_module et_pb_button_module_wrapper et_pb_button_0_tb_header_wrapper">
-                                    <a class="et_pb_button_0_tb_header et_pb_button et_pb_bg_layout_light et_pb_module et_flex_module lsh-contact-button" href="https://lovesignhub.co.uk/contact-us/">Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        <div class="et_pb_section_1_tb_header et_pb_section et_section_regular et_flex_section preset--module--divi-section--default">
-                        <div class="et_pb_row_1_tb_header et_pb_row et_flex_row lsh-main-menu-row preset--module--divi-row--default">
-                            <div class="et_pb_column_2_tb_header et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_24_24 et_flex_column_24_24_tablet et_flex_column_24_24_phone lsh-main-menu-col preset--module--divi-column--default">
-                                <div class="et_pb_menu_0_tb_header et_pb_menu et_pb_menu--without-logo et_pb_menu--style-left_aligned et_dropdown_animation_fade et_pb_bg_layout_light et_pb_text_align_right-tablet et_pb_text_align_right-phone et_pb_module et_flex_module lsh-main-menu">
-                                    <div class="et_pb_menu_inner_container et_flex_module">
-                                        <div class="et_pb_menu__wrap">
-                                            <div class="et_pb_menu__menu">
-                                                <nav class="et-menu-nav">
-                                                    <ul id="menu-primary" class="et-menu nav downwards">
-                                                        <li class="et_pb_menu_page_id-home menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-17 current_page_item menu-item-57">
-                                                            <a href="https://lovesignhub.co.uk/" aria-current="page">Home</a>
-                                                        </li>
-                                                        <li class="et_pb_menu_page_id-48 menu-item menu-item-type-post_type menu-item-object-page menu-item-58">
-                                                            <a href="/bsl-courses.php">BSL Courses</a>
-                                                        </li>
-                                                        <li class="et_pb_menu_page_id-53 menu-item menu-item-type-post_type menu-item-object-page menu-item-59">
-                                                            <a href="https://lovesignhub.co.uk/deaf-awareness/">Deaf Awareness</a>
-                                                        </li>
-                                                        <li class="et_pb_menu_page_id-279 menu-item menu-item-type-post_type menu-item-object-page menu-item-287">
-                                                            <a href="https://lovesignhub.co.uk/career-support-hub/">Career Support Hub</a>
-                                                        </li>
-                                                        <li class="et_pb_menu_page_id-288 menu-item menu-item-type-post_type menu-item-object-page menu-item-290">
-                                                            <a href="https://lovesignhub.co.uk/atw-hub/">ATW Hub</a>
-                                                        </li>
-                                                        <li class="et_pb_menu_page_id-282 menu-item menu-item-type-post_type menu-item-object-page menu-item-325">
-                                                            <a href="https://lovesignhub.co.uk/interpreting-services/">Interpreting Services</a>
-                                                        </li>
-                                                    </ul>
-                                                </nav>
-                                            </div>
-                                            <div class="et_mobile_nav_menu">
-                                                <div class="mobile_nav closed">
-                                                    <span class="mobile_menu_bar"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>';
+     <body>
+<header class="site-header">
+    <div class="header-inner">
+        <div class="header-row">
+            <!-- Logo -->
+            <div class="header-column logo-column">
+                <div class="image-module">
+                    <a href="https://lovesignhub.co.uk/">
+                        <span class="image-wrap">
+                            <img alt="LoveSign Hub Website" fetchpriority="high" loading="lazy" decoding="async" src="images/LoveSign-Hub-Website.svg" title="LoveSign Hub Website" width="100" height="100" srcset="images/LoveSign-Hub-Website.svg 688w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 688px, 100vw" class="wp-image-81"/>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <!-- Contact Button -->
+            <div class="header-column contact-column">
+                <div class="button-wrapper">
+                    <a class="contact-button" href="https://lovesignhub.co.uk/contact-us/">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+                    
+<nav class="main-menu">
+    <div class="menu-container">
+        <ul class="menu-list">
+            <li>
+                <a href="https://lovesignhub.co.uk/">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="/bsl-courses.php">
+                    BSL Courses
+                </a>
+            </li>
+            <li>
+                <a href="https://lovesignhub.co.uk/deaf-awareness/">
+                    Deaf Awareness
+                </a>
+            </li>
+            <li>
+                <a href="https://lovesignhub.co.uk/career-support-hub/">
+                    Career Support Hub
+                </a>
+            </li>
+            <li>
+                <a href="https://lovesignhub.co.uk/atw-hub/">
+                    ATW Hub
+                </a>
+            </li>
+            <li>
+                <a href="https://lovesignhub.co.uk/interpreting-services/">
+                    Interpreting Services
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>';
 }
 function renderFooter()
 {
 ?>
-    <footer class="et-l et-l--footer">
-        <div class="et_builder_inner_content">
-            <div class="et_pb_section_0_tb_footer et_pb_section et_section_regular et_block_section preset--module--divi-section--default">
-                <div class="et_pb_row_0_tb_footer et_pb_row et_flex_row preset--module--divi-row--default">
-                    <div class="et_pb_column_0_tb_footer et_pb_column et_block_column et_pb_css_mix_blend_mode_passthrough et_flex_column_8_24 et_flex_column_8_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                        <div class="et_pb_image_0_tb_footer et_pb_image et_pb_module et_flex_module">
-                            <a href="https://lovesignhub.co.uk/">
-                                <span class="et_pb_image_wrap">
-                                    <img alt="LoveSign Hub Website" loading="lazy" decoding="async" src="images/LoveSign-Hub-Website.svg" title="LoveSign Hub Website" width="688" height="642" srcset="images/LoveSign-Hub-Website.svg 688w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 688px, 100vw" class="wp-image-81" />
-                                </span>
-                            </a>
-                        </div>
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <!-- BRAND -->
+            <div class="footer-column">
+                <a href="https://lovesignhub.co.uk/" class="footer-logo">
+                    <img src="images/LoveSign-Hub-Website.svg" alt="LoveSign Hub Website">
+                </a>
+                <p class="footer-tagline">
+                    Deaf-led. Visual. Human.
+                </p>
+            </div>
 
-                        <div class="et_pb_text_0_tb_footer et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Deaf-led. Visual. Human.</p>
-                            </div>
-                        </div>
-                    </div>
+            <!-- EXPLORE -->
+            <div class="footer-column">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/bsl-courses.php">BSL Courses</a></li>
+                    <li><a href="#">Deaf Awareness</a></li>
+                    <li><a href="#">Career Support Hub</a></li>
+                    <li><a href="#">ATW Hub</a></li>
+                    <li><a href="#">Interpreting Services</a></li>
+                </ul>
 
-                    <div class="et_pb_column_1_tb_footer et_pb_column et_block_column et_pb_css_mix_blend_mode_passthrough et_flex_column_8_24 et_flex_column_8_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                        <div class="et_pb_text_1_tb_footer et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>EXPLORE</p>
-                            </div>
-                        </div>
+            </div>
 
-                        <div class="et_pb_text_2_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>BSL Courses</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_3_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Deaf Awareness</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_4_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Career Support Hub</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_5_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>ATW Hub</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_6_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Interpreting Services</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="et_pb_column_2_tb_footer et_pb_column et_block_column et_pb_css_mix_blend_mode_passthrough et_flex_column_8_24 et_flex_column_8_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                        <div class="et_pb_text_7_tb_footer et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>CONNECT</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_8_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Meet the Team</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_9_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Work with Us</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_10_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>
-                                    <span>Interpreter Registration</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_11_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner" data-et-mv-hidden-tablet="true" data-et-mv-hidden-phone="true">
-                                <p>Contact Us</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="et_pb_column_3_tb_footer et_pb_column et-last-child et_block_column et_pb_css_mix_blend_mode_passthrough et_flex_column_8_24 et_flex_column_8_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                        <div class="et_pb_text_12_tb_footer et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>INFORMATION</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_13_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Terms &amp; Conditions</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_14_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Cookie Policy</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_15_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Accessibility Statement</p>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_text_16_tb_footer et_pb_text et_pb_bg_layout_light et_clickable et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>Privacy Policy</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="et_pb_row_1_tb_footer et_pb_row et_flex_row preset--module--divi-row--default">
-                    <div class="et_pb_column_4_tb_footer et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_24_24 et_flex_column_24_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                        <ul class="et_pb_social_media_follow_0_tb_footer et_pb_social_media_follow et_pb_bg_layout_light et_pb_module et_flex_module">
-                            <li class="et_pb_social_media_follow_network_0_tb_footer et_pb_social_media_follow_network et_pb_social_icon et_pb_social_network_link et-social-facebook et_pb_module et_flex_module">
-                                <a href="https://www.facebook.com/LoveSignHub" class="icon" target="_self" title="Follow on Facebook" rel="noopener">
-                                    <span class="et_pb_social_media_follow_network_name">Follow</span>
-                                </a>
-                            </li>
-
-                            <li class="et_pb_social_media_follow_network_1_tb_footer et_pb_social_media_follow_network et_pb_social_icon et_pb_social_network_link et-social-instagram et_pb_module et_flex_module">
-                                <a href="https://www.instagram.com/lovesignhub/?hl=en" class="icon" target="_self" title="Follow on Instagram" rel="noopener">
-                                    <span class="et_pb_social_media_follow_network_name">Follow</span>
-                                </a>
-                            </li>
-
-                            <li class="et_pb_social_media_follow_network_2_tb_footer et_pb_social_media_follow_network et_pb_social_icon et_pb_social_network_link et-pb-social-fa-icon et-social-tiktok et_pb_module et_flex_module">
-                                <a href="https://www.tiktok.com/@lovesignhub" class="icon" target="_self" title="Follow on TikTok" rel="noopener">
-                                    <span class="et_pb_social_media_follow_network_name">Follow</span>
-                                </a>
-                            </li>
-
-                            <li class="et_pb_social_media_follow_network_3_tb_footer et_pb_social_media_follow_network et_pb_social_icon et_pb_social_network_link et-social-youtube et_pb_module et_flex_module">
-                                <a href="https://www.youtube.com/@LoveSignHub" class="icon" target="_self" title="Follow on Youtube" rel="noopener">
-                                    <span class="et_pb_social_media_follow_network_name">Follow</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="et_pb_row_2_tb_footer et_pb_row et_flex_row preset--module--divi-row--default">
-                    <div class="et_pb_column_5_tb_footer et_pb_column et-last-child et_block_column et_pb_css_mix_blend_mode_passthrough et_flex_column_24_24 et_flex_column_24_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                        <div class="et_pb_divider_0_tb_footer et_pb_divider et_pb_space et_pb_divider_position_top et_pb_module">
-                            <div class="et_pb_divider_internal"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="et_pb_row_3_tb_footer et_pb_row et_flex_row preset--module--divi-row--default">
-                    <div class="et_pb_column_6_tb_footer et_pb_column et-last-child et_block_column et_pb_css_mix_blend_mode_passthrough et_flex_column_24_24 et_flex_column_24_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                        <div class="et_pb_text_17_tb_footer et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                            <div class="et_pb_text_inner">
-                                <p>
-                                    <!-- FooterForge Credit: eg8q2uds -->
-                                    <br />
-                                    <span id="ff-eg8q2uds"></span>
-                                    <br />
-                                    <script>
-                                        (function() {
-                                            var el = document.getElementById('ff-eg8q2uds');
-                                            if (el)
-                                                el.textContent = `[copyright] [year] LoveSign Hub. All rights reserved.`.replace(/\[year\]/g, new Date().getFullYear()).replace(/\[copyright\]/g, '©');
-                                        })();
-                                    </script>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- CONNECT -->
+            <div class="footer-column">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Meet the Team</a></li>
+                    <li><a href="#">Work with Us</a></li>
+                    <li><a href="#">Interpreter Registration</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- INFORMATION -->
+            <div class="footer-column">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Accessibility Statement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
             </div>
         </div>
-    </footer>
+
+        <!-- SOCIAL -->
+        <div class="footer-social">
+            <a href="https://www.facebook.com/LoveSignHub">Facebook</a>
+            <a href="https://www.instagram.com/lovesignhub/?hl=en">
+                Instagram
+            </a>
+            <a href="https://www.tiktok.com/@lovesignhub">
+                TikTok
+            </a>
+            <a href="https://www.youtube.com/@LoveSignHub">
+                YouTube
+            </a>
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom">
+            <p>
+                © <span id="footer-year"></span>
+                LoveSign Hub. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+<script>
+    document.getElementById("footer-year").textContent =
+        new Date().getFullYear();
+</script>
 <?php
 }
 
