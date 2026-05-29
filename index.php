@@ -1,6 +1,6 @@
 <?php
 include("weblib.php");
-renderHeader(title: "Home", description: "Welcome to our website");
+renderHeader(title: "Home", description: "LoveSign Hub is a Deaf-led company for everyone. We offer BSL courses (Level 1–6), Deaf awareness training, interpreting services, career support, Access to Work support and mentorship for interpreters. We believe communication should be seen, not just heard.");
 ?>
 <div id="et-main-area">
     <div id="main-content">
