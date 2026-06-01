@@ -17,15 +17,9 @@ function renderHeader(string $title, string $description)
         <link rel="icon" type="image/svg+xml" href="favicons/favicon.svg" />
         <link rel="shortcut icon" href="favicons/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
-        <link rel="manifest" href="favicons/site.webmanifest" /> ';
-    if ($title == 'BSL courses') {
-        echo '<link rel="stylesheet" href="assets/navBar.css">';
-        echo '<link rel="stylesheet" href="assets/bsl_courses_style.css">';
-    } else {
-        echo '<link rel="stylesheet" href="assets/style.css">';
-    }
-    echo '
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&#038;subset=latin,latin-ext&#038;display=swap" media="all"/>
+        <link rel="manifest" href="favicons/site.webmanifest" /> 
+        <link rel="stylesheet" href="assets/navBar.css">
+        <link rel="stylesheet" href="assets/style.css">
         <link rel="shortlink" href="https://lovesignhub.co.uk/">
 
         <meta name="apple-mobile-web-app-title" content="LoveSign Hub" />
@@ -69,12 +63,12 @@ function renderHeader(string $title, string $description)
     <div class="menu-container">
         <ul class="menu-list">
             <li>
-                <a href="https://lovesignhub.co.uk/">
+                <a href="/website/index.php">
                     Home
                 </a>
             </li>
             <li>
-                <a href="/bsl-courses.php">
+                <a href="/website/bsl-courses.php">
                     BSL Courses
                 </a>
             </li>

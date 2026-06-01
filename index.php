@@ -1,296 +1,265 @@
 <?php
-include("weblib.php");
-renderHeader(title: "Home", description: "LoveSign Hub is a Deaf-led company for everyone. We offer BSL courses (Level 1–6), Deaf awareness training, interpreting services, career support, Access to Work support and mentorship for interpreters. We believe communication should be seen, not just heard.");
+include 'weblib.php';
+renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub, your one-stop destination for all things British Sign Language (BSL). We are dedicated to providing high-quality BSL courses, resources, and support to help you learn and connect with the Deaf community. Whether you are a beginner or looking to enhance your BSL skills, we have something for everyone. Join us on this journey to embrace the beauty of sign language and foster inclusive communication. Explore our courses, access valuable resources, and become part of our vibrant community today!');
 ?>
-<div id="et-main-area">
-    <div id="main-content">
-        <article id="post-17" class="post-17 page type-page status-publish hentry">
-            <div class="entry-content">
-                <div class="et-l et-l--post">
-                    <div class="et_builder_inner_content">
-                        <div class="et_pb_section_0 et_pb_section et_section_regular et_flex_section preset--module--divi-section--default">
-                            <div class="et_pb_row_0 et_pb_row et_block_row preset--module--divi-row--default">
-                                <div class="et_pb_column_0 et_pb_column et_pb_column_4_4 et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough preset--module--divi-column--default">
-                                    <div class="et_pb_image_0 et_pb_image et_pb_module et_flex_module">
-                                        <span class="et_pb_image_wrap">
-                                            <img alt="Welcome Love Sign Hub" decoding="async" src="https://lovesignhub.co.uk/wp-content/uploads/2026/05/hero-image-mash.png" title="hero-image-mash" width="724" height="609" srcset="https://lovesignhub.co.uk/wp-content/uploads/2026/05/hero-image-mash.png 724w, https://lovesignhub.co.uk/wp-content/uploads/2026/05/hero-image-mash-480x404.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 724px, 100vw" class="wp-image-414" />
-                                        </span>
-                                    </div>
 
-                                    <div class="et_pb_row_1 et_pb_row et_pb_row_nested et_flex_row preset--module--divi-row--default">
-                                        <div class="et_pb_column_1 et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_24_24 et_flex_column_24_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                                            <div class="et_pb_heading_0 et_pb_heading et_pb_module et_flex_module">
-                                                <div class="et_pb_heading_container">
-                                                    <h1 class="et_pb_module_header">Welcome</h1>
-                                                </div>
-                                                <div class="et_pb_text_0 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                                    <div class="et_pb_text_inner">
-                                                        <p>Your interactive gateway to British Sign Language (BSL) learning, career support and a strong inclusive community.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<div class="main-header">
+    <img src="images/hero-image-mash.png" alt="LoveSign Hub" class="main-header-image">
 
-                        <div class="et_pb_section_1 et_pb_section et_section_regular et_flex_section preset--module--divi-section--default">
-                            <div class="et_pb_row_2 et_pb_row et_flex_row preset--module--divi-row--default">
-                                <div class="et_pb_column_2 et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_24_24 et_flex_column_24_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                                    <div class="et_pb_text_1 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <h2>
-                                                Deaf-led. Visual.
-                                                <span style="color: #8484ef;"> Human.</span>
-                                            </h2>
-                                        </div>
-                                    </div>
+    <div class="main-header-content">
+        <h1 class="main-header-title">Welcome to LoveSign Hub</h1>
 
-                                    <div class="et_pb_text_2 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <p>
-                                                <span>LoveSign Hub is built by the Deaf community, for everyone. We believe communication should be seen, not just heard.</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="fitvidsignore">
-                                <iframe src="https://player.vimeo.com/video/1191471199?h=8d3159e25a&autoplay=1&muted=1&loop=1&background=1" title="Home" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-
-                            <div class="et_pb_column_4 et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_24_24 et_flex_column_24_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                                <div class="et_pb_toggle_0 et_pb_toggle et_pb_toggle_item et_pb_toggle_close et_pb_module et_flex_module">
-                                    <h4 class="et_pb_toggle_title">Translate Video</h4>
-                                    <div class="et_pb_toggle_content clearfix et_flex_module">
-                                        <p class="p1">Hello and welcome! I’m Lamin. At LoveSign Hub, we are more than just a service provider. We are a bridge between Deaf and Hearing worlds. We make sure that communication, opportunity and support are fully accessible for both Deaf and Hearing people.</p>
-                                        <p>We offer BSL courses from Level 1 to Level 6, supporting you at every stage of your learning. </p>
-                                        <p>We deliver Deaf awareness training, helping organisations build confidence and communicate inclusively.</p>
-                                        <p>We offer interpreter booking services, connecting you with qualified professionals when you need them.</p>
-                                        <p>And for interpreters, we provide training and coaching to strengthen skills and support career progression.</p>
-                                        <p>We provide Deaf career support—helping Deaf individuals find the right opportunities, grow professionally, and succeed at work.</p>
-                                        <p>We also guide you through Access to Work, helping you understand and secure the support available to you.</p>
-                                        <p>Everything we do is about access, growth, and real inclusion.</p>
-                                        <p>Explore LoveSign Hub, connect with us, and be part of a community where communication works for everyone.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="et_pb_row_5 et_pb_row et_grid_row preset--module--divi-row--default">
-                                <div class="et_pb_column_5 et_pb_column et_flex_column et_pb_css_mix_blend_mode_passthrough preset--module--divi-column--default">
-                                    <div class="et_pb_image_1 et_pb_image et_pb_module et_flex_module">
-                                        <span class="et_pb_image_wrap">
-                                            <img alt="Orange Hands" decoding="async" src="images/Orange-Hands-1.svg" title="Orange Hands" width="2764" height="2415" srcset="https://lovesignhub.co.uk/wp-content/uploads/2026/04/Orange-Hands-1.svg 2764w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2764px, 100vw" class="wp-image-249" />
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="et_pb_column_6 et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough preset--module--divi-column--default">
-                                    <div class="et_pb_text_3 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <p>At LoveSign Hub, we believe communication is a basic human right, not a privilege. We have a space that feels welcoming, supportive and full of life, just like the community we serve. </p>
-                                            <p>Whether you are a hearing person starting your journey in BSL, developing your career as a professional interpreter, or learning BSL to connect with Deaf friends and the wider Deaf community, this is your place.  </p>
-                                            <p>If you are a Deaf person looking for job opportunities that match your skills and ambitions, this is your place too.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_section_2 et_pb_section et_section_regular et_flex_section preset--module--divi-section--default">
-                            <div class="et_pb_row_6 et_pb_row et_flex_row preset--module--divi-row--default">
-                                <div class="et_pb_column_7 et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_24_24 et_flex_column_24_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                                    <div class="et_pb_text_4 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <h2>What We Offer</h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_5 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <p>
-                                                <span>LoveSign Hub is built by the Deaf community, for everyone. We believe communication should be seen, not just heard.</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="et_pb_row_7 et_pb_row et_grid_row preset--module--divi-row--default">
-                                <div class="et_pb_column_8 et_pb_column et_flex_column et_pb_css_mix_blend_mode_passthrough preset--module--divi-column--default">
-                                    <div class="et_pb_code_1 et_pb_code et_pb_module">
-                                        <div class="et_pb_code_inner">
-                                            <div class="fitvidsignore" style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;line-height:0;margin:0;padding:0;">
-                                                <iframe class="fitvidsignore" title="BSL Courses Category" src="https://player.vimeo.com/video/1191471140?h=8559c96dbe&title=0&byline=0&portrait=0&badge=0&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;margin:0;padding:0;" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_6 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <h3>BSL Courses</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_7 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <p class="p1">From beginner (Level 1) to advanced (Level 6), our courses support you at every stage. (Learn at your own pace with expert guidance.)</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_module et_pb_button_module_wrapper et_pb_button_0_wrapper">
-                                        <a class="et_pb_button_0 et_pb_button et_pb_bg_layout_light et_pb_module et_flex_module" href="https://lovesignhub.co.uk/bsl-courses/" data-icon="$">Explore BSL Courses</a>
-                                    </div>
-                                </div>
-
-                                <div class="et_pb_column_9 et_pb_column et_flex_column et_pb_css_mix_blend_mode_passthrough preset--module--divi-column--default">
-                                    <div class="et_pb_code_2 et_pb_code et_pb_module">
-                                        <div class="et_pb_code_inner">
-                                            <div class="fitvidsignore" style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;line-height:0;margin:0;padding:0;">
-                                                <iframe class="fitvidsignore" title="Deaf Awareness Category" src="https://player.vimeo.com/video/1191471172?h=1516a56b2e&title=0&byline=0&portrait=0&badge=0&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;margin:0;padding:0;" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_8 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <h3>Deaf Awareness</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_9 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <p class="p1">Helping organisations and individuals build confidence in understanding and communicating with Deaf people and create more inclusive environments.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_module et_pb_button_module_wrapper et_pb_button_1_wrapper">
-                                        <a class="et_pb_button_1 et_pb_button et_pb_bg_layout_light et_pb_module et_flex_module" href="https://lovesignhub.co.uk/deaf-awareness/" data-icon="$">Explore Deaf Awareness</a>
-                                    </div>
-                                </div>
-
-                                <div class="et_pb_column_10 et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough preset--module--divi-column--default">
-                                    <div class="et_pb_code_3 et_pb_code et_pb_module">
-                                        <div class="et_pb_code_inner">
-                                            <div class="fitvidsignore" style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;line-height:0;margin:0;padding:0;">
-                                                <iframe class="fitvidsignore" title="Career Support Category" src="https://player.vimeo.com/video/1191471157?h=82b83c6a52&title=0&byline=0&portrait=0&badge=0&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;margin:0;padding:0;" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_10 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <h3>Career Support Hub</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_11 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <p class="p1">Supporting deaf people in finding work that involves job searching assistance, CV preparation, and interview preparation.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_module et_pb_button_module_wrapper et_pb_button_2_wrapper">
-                                        <a class="et_pb_button_2 et_pb_button et_pb_bg_layout_light et_pb_module et_flex_module" href="https://lovesignhub.co.uk/career-support-hub/" data-icon="$">Explore Career Support Hub</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="et_pb_row_8 et_pb_row et_flex_row preset--module--divi-row--default">
-                                <div class="et_pb_column_11 et_pb_column et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_8_24 et_flex_column_8_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                                    <div class="et_pb_code_4 et_pb_code et_pb_module">
-                                        <div class="et_pb_code_inner">
-                                            <div class="fitvidsignore" style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;line-height:0;margin:0;padding:0;">
-                                                <iframe class="fitvidsignore" title="ATW Hub Category" src="https://player.vimeo.com/video/1191471138?h=458fe83270&title=0&byline=0&portrait=0&badge=0&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;margin:0;padding:0;" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_12 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <h3>ATW Hub</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_13 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <p class="p1">We guide you through the Access to Work process, helping you understand and secure the support you need.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_module et_pb_button_module_wrapper et_pb_button_3_wrapper">
-                                        <a class="et_pb_button_3 et_pb_button et_pb_bg_layout_light et_pb_module et_flex_module" href="https://lovesignhub.co.uk/atw-hub/" data-icon="$">Explore ATW Hub</a>
-                                    </div>
-                                </div>
-
-                                <div class="et_pb_column_12 et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough et_flex_column_8_24 et_flex_column_8_24_tablet et_flex_column_24_24_phone preset--module--divi-column--default">
-                                    <div class="et_pb_code_5 et_pb_code et_pb_module">
-                                        <div class="et_pb_code_inner">
-                                            <div class="fitvidsignore" style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;line-height:0;margin:0;padding:0;">
-                                                <iframe class="fitvidsignore" title="Interpreting Services Category" src="https://player.vimeo.com/video/1191471201?h=bc06842a77&title=0&byline=0&portrait=0&badge=0&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;margin:0;padding:0;" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_14 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <h3>Interpreting Services</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_15 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <p class="p1">We provide professional interpreting support for a range of situations, including workplaces, meetings, events, and appointments.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_module et_pb_button_module_wrapper et_pb_button_4_wrapper">
-                                        <a class="et_pb_button_4 et_pb_button et_pb_bg_layout_light et_pb_module et_flex_module" href="https://lovesignhub.co.uk/interpreting-services/" data-icon="$">Explore Interpreting Services</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="et_pb_section_3 et_pb_section et_section_regular et_flex_section preset--module--divi-section--default">
-                            <div class="et_pb_row_9 et_pb_row et_grid_row preset--module--divi-row--default">
-                                <div class="et_pb_column_13 et_pb_column et_flex_column et_pb_css_mix_blend_mode_passthrough preset--module--divi-column--default">
-                                    <div class="et_pb_text_16 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <h2>Terps Corner</h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="et_pb_text_17 et_pb_text et_pb_bg_layout_light et_pb_module et_flex_module preset--module--divi-text--default">
-                                        <div class="et_pb_text_inner">
-                                            <p>We provide a complete A–Z professional development ecosystem designed specifically for interpreters working within the field. Created by terps, for terps, this space is designed to support interpreters navigating our niche field. From CPD courses to mentorships, you’ll find the tools, guidance, and opportunities you need all in one place.</p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="et_pb_column_14 et_pb_column et-last-child et_flex_column et_pb_css_mix_blend_mode_passthrough preset--module--divi-column--default">
-                                    <div class="et_pb_image_2 et_pb_image et_pb_module et_flex_module">
-                                        <span class="et_pb_image_wrap">
-                                            <img alt="Coming soon banner" decoding="async" src="https://lovesignhub.co.uk/wp-content/uploads/2026/05/coming-soon.png" title="coming soon" width="1889" height="1000" srcset="https://lovesignhub.co.uk/wp-content/uploads/2026/05/coming-soon.png 1889w, https://lovesignhub.co.uk/wp-content/uploads/2026/05/coming-soon-1280x678.png 1280w, https://lovesignhub.co.uk/wp-content/uploads/2026/05/coming-soon-980x519.png 980w, https://lovesignhub.co.uk/wp-content/uploads/2026/05/coming-soon-480x254.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1889px, 100vw" class="wp-image-422" />
-                                        </span>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </article>
-
+        <p class="main-header-description">
+            Your interactive gateway to British Sign Language (BSL) learning, career support and a strong inclusive community. </p>
     </div>
 </div>
+
+<div class="et_pb_toggle_0 et_pb_toggle et_pb_toggle_close" id="translate-toggle">
+    <div class="toggle_title">
+        <h2> Deaf-led. Visual.<span style="color: #8484ef;"> Human.</span></h2>
+    </div>
+    <div class="et_pb_text_inner">
+        <p>
+            <span>LoveSign Hub is built by the Deaf community, for everyone. We believe communication should be seen, not just heard.</span>
+        </p>
+    </div>
+    <!-- VIDEO -->
+    <div class="translate-video">
+        <div class="fitvidsignore">
+            <video
+                class="hero-video"
+                controls
+                preload="metadata"
+                poster="images/hero-video-thumbnail.jpg">
+
+                <source src="videos/home.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+            <!-- <iframe
+                title="Welcome to LoveSign Hub"
+                src="https://player.vimeo.com/video/1191471199?h=8d3159e25a&autoplay=1&muted=1&loop=1&background=1"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen>
+            </iframe> -->
+        </div>
+
+    </div>
+
+    <!-- TOGGLE HEADER -->
+    <div class="toggle-header">
+        <h4 class="et_pb_toggle_title">Translate Video</h4>
+
+        <button class="toggle-btn" id="toggleBtn">
+            <span class="toggle-icon">+</span>
+        </button>
+    </div>
+
+    <!-- TOGGLE CONTENT -->
+    <div class="et_pb_toggle_content" id="toggleContent">
+
+        <p>Hello and welcome! I’m Lamin. At LoveSign Hub, we are more than just a service provider. We are a bridge between Deaf and Hearing worlds. We make sure that communication, opportunity and support are fully accessible for both Deaf and Hearing people.</p>
+        <p>We offer BSL courses from Level 1 to Level 6, supporting you at every stage of your learning. </p>
+        <p>We deliver Deaf awareness training, helping organisations build confidence and communicate inclusively.</p>
+        <p>We offer interpreter booking services, connecting you with qualified professionals when you need them.</p>
+        <p>And for interpreters, we provide training and coaching to strengthen skills and support career progression.</p>
+        <p>We provide Deaf career support—helping Deaf individuals find the right opportunities, grow professionally, and succeed at work.</p>
+        <p>We also guide you through Access to Work, helping you understand and secure the support available to you.</p>
+        <p>Everything we do is about access, growth, and real inclusion.</p>
+        <p>Explore LoveSign Hub, connect with us, and be part of a community where communication works for everyone.</p>
+    </div>
+    <div class="tootle-servce">
+        <div class="toggle-wrapper-image">
+            <img alt="Orange Hands" src="images/Orange-Hands-1.svg" />
+        </div>
+        <div class="et_pb_text_inner">
+            <p>At LoveSign Hub, we believe communication is a basic human right, not a privilege. We have a space that feels welcoming, supportive and full of life, just like the community we serve. </p>
+            <p>Whether you are a hearing person starting your journey in BSL, developing your career as a professional interpreter, or learning BSL to connect with Deaf friends and the wider Deaf community, this is your place.  </p>
+            <p>If you are a Deaf person looking for job opportunities that match your skills and ambitions, this is your place too.</p>
+        </div>
+    </div>
 </div>
-</div>
+
+<section class="et_pb_section et_pb_section_3">
+    <!-- Section Header -->
+    <div class="et_pb_row et_pb_row_4">
+        <div class="et_pb_column et_pb_column_4_4">
+
+            <h2 class="section_title">
+                What We Offer
+            </h2>
+
+            <p class="section_description">
+                LoveSign Hub is built by the Deaf community, for everyone.
+                We believe communication should be seen, not just heard.
+            </p>
+        </div>
+    </div>
+
+    <!-- Video Cards -->
+    <div class="et_pb_row et_pb_row_6 et_grid_row">
+        <article class="et_pb_column offer_card">
+            <div class="video-wrapper">
+                <video
+                    class="hero-video"
+                    controls
+                    preload="metadata"
+                    poster="images/bsl-courses-thumbnail.jpg">
+
+                    <source src="videos/bsl_courses_category.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="card_content">
+                <h3 class="offer_title">BSL Courses</h3>
+
+                <p class="offer_description">
+                    From beginner (Level 1) to advanced (Level 6), our courses
+                    support you at every stage. Learn at your own pace with
+                    expert guidance and practical learning opportunities.
+                </p>
+                <a class="et_pb_link" href="/bsl-courses.php">Explore More</a>
+            </div>
+        </article>
+
+        <article class="et_pb_column offer_card">
+            <div class="video-wrapper">
+                <video
+                    class="hero-video"
+                    controls
+                    preload="metadata"
+                    poster="images/deaf_awareness-thumbnail.jpg">
+
+                    <source src="videos/deaf_awareness.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="card_content" style="--card-color: #37A2F6;">
+                <h3 class="offer_title">Deaf Awareness</h3>
+
+                <p class="offer_description">
+                    Helping organisations and individuals build confidence in understanding and communicating with Deaf people and create more inclusive environments.
+                </p>
+                <a class="et_pb_link" style="--card-color: #37A2F6;" href="/deaf-awareness.php">Explore More</a>
+            </div>
+        </article>
+        <article class="et_pb_column offer_card">
+            <div class="video-wrapper">
+                <video
+                    class="hero-video"
+                    controls
+                    preload="metadata"
+                    poster="images/career_support-thumbnail.jpg">
+
+                    <source src="videos/career_support_category.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="card_content">
+                <h3 class="offer_title">Career Support Hub</h3>
+
+                <p class="offer_description">
+                    Supporting deaf people in finding work that involves job searching assistance, CV preparation, and interview preparation.
+                </p>
+                <a class="et_pb_link" href="/career-support.php">Explore More</a>
+            </div>
+        </article>
+        <article class="et_pb_column offer_card">
+            <div class="video-wrapper">
+                <video
+                    class="hero-video"
+                    controls
+                    preload="metadata"
+                    poster="images/atw-thumbnail.jpg">
+
+                    <source src="videos/atw_hub_category.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="card_content">
+                <h3 class="offer_title" style="--card-color: #37A2F6;">ATW Hub</h3>
+                <p class="offer_description">
+                    We guide you through the Access to Work process, helping you understand and secure the support you need.
+                </p>
+                <a class="et_pb_link" style="--card-color: #37A2F6;" href="/atw-hub.php">Explore More</a>
+            </div>
+        </article>
+        <article class="et_pb_column offer_card">
+            <div class="video-wrapper">
+                <video
+                    class="hero-video"
+                    controls
+                    preload="metadata"
+                    poster="images/interpreter-services-thumbnail.jpg">
+
+                    <source src="videos/interpreter_services_category.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="card_content">
+                <h3 class="offer_title">Interpreter Services</h3>
+                <p class="offer_description">
+                    We provide professional interpreting support for a range of situations, including workplaces, meetings, events, and appointments. </p>
+                <a class="et_pb_link" href="/interpreter-services.php">Explore More</a>
+            </div>
+        </article>
+    </div>
+</section>
+<section class="et_pb_section et_pb_section_2">
+    <h2 class="section_title">Terps Corner</h2>
+    <div class="offer-content">
+        <div class="offer-text">
+            <p class="section_description">
+                We provide a complete A–Z professional development ecosystem designed specifically for interpreters working within the field. Created by terps, for terps, this space is designed to support interpreters navigating our niche field. From CPD courses to mentorships, you'll find the tools, guidance, and opportunities you need all in one place.
+            </p>
+        </div>
+        <div class="offer-video">
+            <!-- <video
+                class="hero-video"
+                controls
+                preload="metadata"
+                poster="images/terps-corner-thumbnail.jpg">
+
+                <source src="videos/terps_corner_category.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video> -->
+
+            <img src="images/coming-soon.png" alt="Coming Soon">
+        </div>
+    </div>
+</section>
 
 <?php
 renderFooter();
 ?>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+
+        const toggle = document.getElementById("translate-toggle");
+        const button = document.getElementById("toggleBtn");
+        const content = document.getElementById("toggleContent");
+        const icon = button.querySelector(".toggle-icon");
+
+        button.addEventListener("click", function() {
+
+            toggle.classList.toggle("et_pb_toggle_open");
+
+            if (toggle.classList.contains("et_pb_toggle_open")) {
+                content.style.display = "block";
+                icon.textContent = "−";
+            } else {
+                content.style.display = "none";
+                icon.textContent = "+";
+            }
+
+        });
+
+    });
+</script>

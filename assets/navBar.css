@@ -7,17 +7,17 @@
     --background-color: #8484ef;
     --header-color: #21213e;
 
-    --secondary-color: #ffffff;
+    --secondary-color: #21213e;
     --accent-color: #f0f0f0;
     --soft-white: #f4f4f4;
-
-    --text-color: #272611;
 
     --button-color: #e4d100;
     --button-hover: #d4c100;
 
     --container-width: 1200px;
-
+    --primary-text-color: #ffffff;
+    --text-color: #272611;
+    --secondary-yellow: #e4d100;
     --font-family: Arial, sans-serif;
 }
 
@@ -101,8 +101,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-}
-
+} 
 /* =========================================
    HEADER
 ========================================= */
