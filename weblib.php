@@ -73,7 +73,7 @@ function renderHeader(string $title, string $description)
                 </a>
             </li>
             <li>
-                <a href="https://lovesignhub.co.uk/deaf-awareness/">
+                <a href="/website/deaf-awareness.php">
                     Deaf Awareness
                 </a>
             </li>
@@ -117,10 +117,10 @@ function renderFooter()
                 <h4>Explore</h4>
                 <ul>
                     <li><a href="/bsl-courses.php">BSL Courses</a></li>
-                    <li><a href="#">Deaf Awareness</a></li>
-                    <li><a href="#">Career Support Hub</a></li>
-                    <li><a href="#">ATW Hub</a></li>
-                    <li><a href="#">Interpreting Services</a></li>
+                    <li><a href="/deaf-awareness.php">Deaf Awareness</a></li>
+                    <li><a href="/career-support-hub.php">Career Support Hub</a></li>
+                    <li><a href="/atw-hub.php">ATW Hub</a></li>
+                    <li><a href="/interpreting-services.php">Interpreting Services</a></li>
                 </ul>
 
             </div>

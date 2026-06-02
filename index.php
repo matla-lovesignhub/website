@@ -26,22 +26,10 @@ renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub,
     <!-- VIDEO -->
     <div class="translate-video">
         <div class="fitvidsignore">
-            <video
-                class="hero-video"
-                controls
-                preload="metadata"
-                poster="images/hero-video-thumbnail.jpg">
-
+            <video class="hero-video" autoplay muted controls preload="metadata" poster="images/video-thumbnail.png">
                 <source src="videos/home.mp4" type="video/mp4">
-
                 Your browser does not support the video tag.
             </video>
-            <!-- <iframe
-                title="Welcome to LoveSign Hub"
-                src="https://player.vimeo.com/video/1191471199?h=8d3159e25a&autoplay=1&muted=1&loop=1&background=1"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen>
-            </iframe> -->
         </div>
 
     </div>
@@ -73,8 +61,8 @@ renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub,
             <img alt="Orange Hands" src="images/Orange-Hands-1.svg" />
         </div>
         <div class="et_pb_text_inner">
-            <p>At LoveSign Hub, we believe communication is a basic human right, not a privilege. We have a space that feels welcoming, supportive and full of life, just like the community we serve. </p>
-            <p>Whether you are a hearing person starting your journey in BSL, developing your career as a professional interpreter, or learning BSL to connect with Deaf friends and the wider Deaf community, this is your place.  </p>
+            <p>At LoveSign Hub, we believe communication is a basic human right, not a privilege. We have a space that feels welcoming, supportive and full of life, just like the community we serve.</p>
+            <p>Whether you are a hearing person starting your journey in BSL, developing your career as a professional interpreter, or learning BSL to connect with Deaf friends and the wider Deaf community, this is your place.</p>
             <p>If you are a Deaf person looking for job opportunities that match your skills and ambitions, this is your place too.</p>
         </div>
     </div>
@@ -85,9 +73,7 @@ renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub,
     <div class="et_pb_row et_pb_row_4">
         <div class="et_pb_column et_pb_column_4_4">
 
-            <h2 class="section_title">
-                What We Offer
-            </h2>
+            <h2 class="section_title">What We Offer</h2>
 
             <p class="section_description">
                 LoveSign Hub is built by the Deaf community, for everyone.
@@ -104,7 +90,7 @@ renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub,
                     class="hero-video"
                     controls
                     preload="metadata"
-                    poster="images/bsl-courses-thumbnail.jpg">
+                poster="images/video-thumbnail.png">
 
                     <source src="videos/bsl_courses_category.mp4" type="video/mp4">
 
@@ -129,10 +115,8 @@ renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub,
                     class="hero-video"
                     controls
                     preload="metadata"
-                    poster="images/deaf_awareness-thumbnail.jpg">
-
+                    poster="images/video-thumbnail.png">
                     <source src="videos/deaf_awareness.mp4" type="video/mp4">
-
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -151,7 +135,7 @@ renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub,
                     class="hero-video"
                     controls
                     preload="metadata"
-                    poster="images/career_support-thumbnail.jpg">
+                    poster="images/video-thumbnail.png">
 
                     <source src="videos/career_support_category.mp4" type="video/mp4">
 
@@ -173,10 +157,8 @@ renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub,
                     class="hero-video"
                     controls
                     preload="metadata"
-                    poster="images/atw-thumbnail.jpg">
-
+                    poster="images/video-thumbnail.png">
                     <source src="videos/atw_hub_category.mp4" type="video/mp4">
-
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -194,7 +176,7 @@ renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub,
                     class="hero-video"
                     controls
                     preload="metadata"
-                    poster="images/interpreter-services-thumbnail.jpg">
+                    poster="images/video-thumbnail.png">
 
                     <source src="videos/interpreter_services_category.mp4" type="video/mp4">
 
@@ -223,7 +205,7 @@ renderHeader($title = 'Home page', $description = 'Welcome to the Love Sign Hub,
                 class="hero-video"
                 controls
                 preload="metadata"
-                poster="images/terps-corner-thumbnail.jpg">
+                poster="images/video-thumbnail.png">
 
                 <source src="videos/terps_corner_category.mp4" type="video/mp4">
 
