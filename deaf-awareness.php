@@ -79,7 +79,11 @@ This is not just theory but real situations, real people and real improvement.</
     </div>
 </div>
 <section class="et_pb_section et_pb_section_2">
-    <h2 class="section_title">Why Deaf Awareness Matters</h2>
+       <div class="et_pb_row et_pb_row_4">
+        <div class="et_pb_column et_pb_column_4_4">
+            <h2 class="section_title">Why Deaf Awareness Matters</h2>
+        </div>
+    </div>
     <div class="offer-content">
         <div class="offer-text">
            <div class="section_description">

@@ -19,7 +19,7 @@ $viewArray = [
         'duration' => '30 - 50 weeks',
         'local' => 'Video-led',
         'link' => 'certified',
-        'card-color' => '#37A2F6'
+        'card-color' => '#37A2F6;'
     ],
     [
         'bage' => 'Beginner - Advanced',
@@ -38,12 +38,10 @@ $viewArray = [
         'duration' => '1 day',
         'local' => 'Video-led',
         'link' => 'intensive',
-        'card-color' => '#37A2F6',
+        'card-color' => '#37A2F6;',
         'comeing-soon' => true
     ]
 ]
-
-
 ?>
 
 <div class="main-header">
@@ -119,7 +117,7 @@ $viewArray = [
     </div>
 </div>
 
-<!-- COURSES SECTION -->
+<!-- COURSES SECTION-->
 <section class="et_pb_section et_pb_section_1">
     <div class="et_pb_row et_pb_row_4">
         <div class="et_pb_column et_pb_column_4_4">
@@ -132,139 +130,51 @@ $viewArray = [
 
     <!-- COURSE GRID -->
     <div class="et_pb_row et_pb_row_5 et_grid_row">
-
-        <!-- CARD 1 -->
-        <div class="et_pb_column">
-            <div class="et_pb_text et_pb_text_5">
-                <p>Beginner - Advanced</p>
+        <?php
+        foreach ($viewArray as $value) {
+            $cardColor = htmlspecialchars($value['card-color'] ?? 'var(--secondary-yellow)');
+            ?>
+            <div class="et_pb_column">
+            <div class="et_pb_text" style="--card-color: <?= $cardColor ?>">
+                <p><?= htmlspecialchars($value['bage']) ?></p>
             </div>
-            <div class="et_pb_text et_pb_text_6">
-                <h2>BSL Taster Courses</h2>
+            <div class="et_pb_text">
+                <h2><?= htmlspecialchars($value['title']) ?></h2>
             </div>
-            <div class="et_pb_text et_pb_text_7">
-                <p>
-                    Our BSL Taster Courses are available from Level 1 to Level 6,
-                    offering a focused and manageable way to build practical signing skills.
-                </p>
-            </div>
-            <div class="et_pb_group">
-                <div class="et_pb_blurb">
-                    <div class="et_pb_blurb_content">
-                        <span class="et-pb-icon">⏱</span>
-                        <h4>4 weeks</h4>
-                    </div>
-                </div>
-                <div class="et_pb_blurb">
-                    <div class="et_pb_blurb_content">
-                        <span class="et-pb-icon">▶</span>
-                        <h4>Video-led</h4>
-                    </div>
-                </div>
-            </div>
-            <a class="et_pb_link" href="/website/courses-category.php?view=taster">Explore More</a>
-        </div>
-        <!-- CARD 2 -->
-        <div class="et_pb_column">
-            <div class="et_pb_text et_pb_text_8" style="--card-color: #37A2F6;">
-                <p>Beginner - Advanced</p>
-            </div>
-            <div class="et_pb_text et_pb_text_9">
-                <h2>BSL Certified Courses</h2>
-            </div>
-            <div class="et_pb_text et_pb_text_10">
-                <p>
-                    Structured courses from Level 1 to Level 6,
-                    designed to help you develop your BSL skills step by step.
-                </p>
+            <div class="et_pb_description">
+                <p><?= htmlspecialchars($value['description']) ?></p>
             </div>
             <div class="et_pb_group">
                 <div class="et_pb_blurb">
                     <div class="et_pb_blurb_content">
                         <span class="et-pb-icon">⏱</span>
-                        <h4>30 - 50 weeks</h4>
+                        <h4><?= htmlspecialchars($value['duration'])?></h4>
                     </div>
                 </div>
                 <div class="et_pb_blurb">
                     <div class="et_pb_blurb_content">
                         <span class="et-pb-icon">▶</span>
-                        <h4>Video-led</h4>
+                        <h4><?= htmlspecialchars($value['local'])?></h4>
                     </div>
                 </div>
             </div>
-            <a class="et_pb_link" style="--card-color: #37A2F6;" href="/website/courses-category.php?view=certified">Explore More</a>
-        </div>
-
-        <!-- CARD 3 -->
-        <div class="et_pb_column">
-            <div class="et_pb_text et_pb_text_11">
-                <p>Beginner - Advanced</p>
-            </div>
-            <div class="et_pb_text et_pb_text_12">
-                <h2>1:1 BSL Learning Support</h2>
-            </div>
-            <div class="et_pb_text et_pb_text_13">
-                <p>
-                    Personalised BSL sessions for learners at any level,
-                    focused on your goals and confidence.
-                </p>
-            </div>
-            <div class="et_pb_group">
-                <div class="et_pb_blurb">
-                    <div class="et_pb_blurb_content">
-                        <span class="et-pb-icon">⏱</span>
-                        <h4>1 day</h4>
-                    </div>
-                </div>
-                <div class="et_pb_blurb">
-                    <div class="et_pb_blurb_content">
-                        <span class="et-pb-icon">▶</span>
-                        <h4>Video-led</h4>
-                    </div>
-                </div>
-            </div>
-            <a class="et_pb_link" href="/website/courses-category.php?view=bsl_sessions">Explore More</a>
-        </div>
-
-        <!-- CARD 4 -->
-        <div class="et_pb_column">
-            <div class="et_pb_text et_pb_text_14" style="--card-color: #37A2F6;">
-                <p>Intermediate - Advanced</p>
-            </div>
-            <div class="et_pb_text et_pb_text_15">
-                <h2>Intensive Courses</h2>
-            </div>
-            <div class="et_pb_text et_pb_text_16">
-                <p>
-                    Intensive certified courses for Levels 3, 4 and 6,
-                    designed for learners who want to progress faster.
-                </p>
-            </div>
-            <div class="et_pb_group">
-                <div class="et_pb_blurb">
-                    <div class="et_pb_blurb_content">
-                        <span class="et-pb-icon">⏱</span>
-                        <h4>1 day</h4>
-                    </div>
-                </div>
-                <div class="et_pb_blurb">
-                    <div class="et_pb_blurb_content">
-                        <span class="et-pb-icon">▶</span>
-                        <h4>Video-led</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="coming-soon">
+            <?php
+            if ($value['comeing-soon'] ?? false) {
+                echo '<div class="coming-soon">
                 <img src="images/coming-soon.png" alt="Coming Soon">
-            </div> <!-- <a class="et_pb_link" style="--card-color: #37A2F6;" href="/courses-category.php?view=intensive">Explore More</a> -->
-        </div>
-    </div>
-</section>
+            </div>';
+            }else {
+                   echo '<a class="et_pb_link" style="--card-color:'. $cardColor . '" href="/website/courses-category.php?view=' . $value['link'] . '">Explore More</a>';
+                  }
+            echo'</div>';
+        }
+        ?>
+
+        </section>
 </div>
 </div>
 </div>
 </article>
-
-
 <?php renderFooter(); ?>
 
 <script>

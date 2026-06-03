@@ -50,7 +50,7 @@ function renderHeader(string $title, string $description)
             <!-- Contact Button -->
             <div class="header-column contact-column">
                 <div class="button-wrapper">
-                    <a class="contact-button" href="https://lovesignhub.co.uk/contact-us/">
+                    <a class="contact-button" href="/website/contact-us/">
                         Contact Us
                     </a>
                 </div>
@@ -78,17 +78,17 @@ function renderHeader(string $title, string $description)
                 </a>
             </li>
             <li>
-                <a href="https://lovesignhub.co.uk/career-support-hub/">
+                <a href="/website/career-support-hub.php">
                     Career Support Hub
                 </a>
             </li>
             <li>
-                <a href="https://lovesignhub.co.uk/atw-hub/">
+                <a href="/website/atw-hub.php">
                     ATW Hub
                 </a>
             </li>
             <li>
-                <a href="https://lovesignhub.co.uk/interpreting-services/">
+                <a href="/website/interpreting-services.php">
                     Interpreting Services
                 </a>
             </li>
